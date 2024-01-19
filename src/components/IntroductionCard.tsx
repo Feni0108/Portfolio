@@ -1,5 +1,6 @@
 import { Karla } from "next/font/google";
 import localFont from "next/font/local";
+import { ReactNode } from "react";
 
 const myFont = localFont({ src: "../../public/fonts/Broukha.ttf" });
 
