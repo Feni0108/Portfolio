@@ -2,7 +2,6 @@ import styles from "../../styles/About.module.css";
 import localFont from "next/font/local";
 import { Karla } from "next/font/google";
 import { useTranslations } from "next-intl";
-import Temperature from "./Temperature";
 import Profile from "./Profile";
 import IntroCard from "./IntroductionCard";
 
