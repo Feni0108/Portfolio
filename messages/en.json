@@ -27,7 +27,8 @@
   },
   "About": {
     "short-intro": "I'm Fanni.",
-    "short-title": "I'm looking for my dream job in {degree}°C Igis, Switzerland.",
+    "short-title1": "I'm looking for my dream job in ",
+    "short-title2": "°C Igis, Switzerland.",
     "intro": "Over the last few years I was living in Austria, and I wanted to make my dreams to be a developer come true, so I took an online course. I've learned in the University during my studies as a Physicist, that with hard work, dedication and persistence I can reach my goals. So here I am now, presenting to you my first webpage, what I created myself."
   },
   "References": {

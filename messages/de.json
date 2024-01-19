@@ -27,7 +27,8 @@
   },
   "About": {
     "short-intro": "Ich bin Fanni.",
-    "short-title": "Ich suche meinen Traumjob in {degree}°C Igis, Schweiz.",
+    "short-title1": "Ich suche meinen Traumjob in ",
+    "short-title2": "°C Igis, Schweiz.",
     "intro": "In den letzten Jahren habe ich in Österreich gelebt, und ich wollte meinen Traum, Entwickler zu werden, wahr werden lassen. Daher habe ich einen Online-Kurs belegt. Während meines Physikstudiums an der Universität habe ich gelernt, dass mit harter Arbeit, Hingabe und Ausdauer meine Ziele erreichbar sind. Also stehe ich nun hier und präsentiere Ihnen meine erste Webseite, die ich selbst erstellt habe."
   },
   "References": {
