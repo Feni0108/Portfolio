@@ -1,4 +1,19 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+const withNextIntl = require("next-intl/plugin")();
 
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  async rewrites() {
+    return [
+      {
+        source: "/humans.txt",
+        destination: "/api/humans",
+      },
+    ];
+  },
+  publicRuntimeConfig: {
+    modifiedDate: new Date().toISOString(),
+  },
+};
+
+module.exports = withNextIntl(nextConfig);

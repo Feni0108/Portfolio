@@ -1,0 +1,12 @@
+.normal {
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  color: rgb(84, 89, 86);
+  font-weight: 700;
+}
+
+.normal:hover {
+  background: rgb(84, 89, 86, 0.9);
+  color: rgba(255, 255, 255);
+}

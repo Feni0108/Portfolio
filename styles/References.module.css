@@ -1,0 +1,106 @@
+.main {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  text-justify: auto;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.section_box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  padding: auto;
+  color: rgba(2, 90, 78, 255);
+}
+
+.container {
+  text-align: justify;
+  text-justify: auto;
+  padding-top: 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.institution {
+  color: rgba(2, 90, 78, 255);
+  font-weight: 900;
+}
+
+.position {
+  font-weight: 500;
+  color: rgba(2, 90, 78, 255);
+}
+
+.year {
+  font-weight: 500;
+  color: rgba(2, 90, 78, 255);
+}
+
+.content {
+  color: rgba(85, 110, 105, 255);
+  line-height: 1.6;
+  font-size: 1.6vw;
+}
+
+.place {
+  font-size: 1.2vw;
+  color: rgba(2, 90, 78, 255);
+}
+
+@media (max-width: 938px) {
+  .section {
+    font-size: 40px;
+  }
+  .main {
+    padding-top: 0;
+  }
+  .institution {
+    font-size: 16px;
+  }
+  .position {
+    font-size: 14px;
+  }
+  .year {
+    font-size: 10px;
+  }
+  .content {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .place {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 939px) {
+  .section {
+    font-size: 80px;
+  }
+  .main {
+    padding-top: 0;
+  }
+  .institution {
+    font-size: 30px;
+  }
+  .position {
+    font-size: 24px;
+  }
+  .year {
+    font-size: 20px;
+  }
+  .content {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .place {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,50 @@
+.active {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 15px;
+  border-radius: 40px;
+  backdrop-filter: blur(10px);
+  color: rgb(84, 89, 86);
+}
+
+.nav_link {
+  text-decoration: none;
+  color: rgb(84, 89, 86);
+  padding: 9px 15px;
+}
+
+@media (max-width: 499px) {
+  .nav_link {
+    font-size: 12px;
+    padding: 7px 10px;
+  }
+  .active {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 500px) {
+  .nav_link {
+    font-size: 14px;
+  }
+  .active {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav_link {
+    font-size: 16px;
+  } /*1rem = 16px*/
+  .active {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav_link {
+    font-size: 18px;
+  }
+  .active {
+    font-size: 18px;
+  }
+}

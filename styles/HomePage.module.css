@@ -1,0 +1,66 @@
+.tight {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 250px;
+}
+
+.greeting {
+  font-size: 7vw;
+  justify-content: center;
+  color: rgba(2, 90, 78, 255);
+}
+
+.intro {
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 70px;
+  padding-top: 50px;
+  font-size: 5vw;
+  color: rgb(84, 89, 86);
+  line-height: 35px;
+}
+
+@media (min-width: 375px) {
+  .intro {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    font-size: 16px;
+  } /*1rem = 16px*/
+}
+
+@media (min-width: 1200px) {
+  .intro {
+    font-size: 20px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.star1 {
+  position: absolute;
+  width: 7vw;
+  height: auto;
+  left: 90%;
+  top: -20%;
+}
+
+.star2 {
+  position: absolute;
+  width: 7vw;
+  height: auto;
+  left: 0%;
+  top: 65%;
+}
+
+.hero {
+  margin-top: 80px;
+  width: 100%;
+}

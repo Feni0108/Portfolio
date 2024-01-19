@@ -1,0 +1,55 @@
+{
+  "Navigation": {
+    "home": "Start",
+    "about": "Über",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, de {De} en {En} other {Unbekannt}}"
+  },
+  "Homepage": {
+    "greeting": "Hallo! Ich bin Fanni. Eine Entwicklerin.",
+    "introduction": "Ich bin eine Java Backend-Entwicklerin mit einer fundierten wissenschaftlichen Grundlage.",
+    "hero-title": "Language Learning Platform",
+    "hero-description": "Während meines Studiums an der Greenfox Academy haben meine Gruppenmitglieder und ich eine Sprachlernplattform erstellt - ein kleines Projekt ähnlich wie Duolingo. Unser Hauptziel bestand darin, neue Programmierfunktionen zu erlernen, indem wir unsere erste echte Webseite erstellten.",
+    "button": "FALLSTUDIE"
+  },
+  "Projects": {
+    "details": "<h5>Projektübersicht</h5><p>Die Sprachlernplattform ist ein Projekt, das im Rahmen der Projektphase an der Green Fox Academy entwickelt wurde. Es handelt sich um eine interaktive webbasierte Anwendung, die darauf abzielt, das Erlernen einer neuen Sprache einfach, unterhaltsam und süchtig machend zu gestalten. Die Plattform bietet eine Vielzahl von Funktionen, die darauf ausgelegt sind, Benutzern das Lernen neuer Vokabeln und Phrasen in einer Fremdsprache ihrer Wahl zu erleichtern.</p><h5>Funktionen</h5><h4>Interaktives Lernen</h4><p>Die Plattform bietet eine Vielzahl interaktiver Lernfunktionen, die das Erlernen einer neuen Sprache unterhaltsam und ansprechend gestalten. Benutzer können neue Wörter und Phrasen mithilfe von Bildern, Tönen und Beispielsätzen lernen. Jedes Wort wird im Kontext präsentiert, sodass Benutzer sehen können, wie es in realen Situationen verwendet wird.</p><h4>Gamifizierung</h4><p>Um das Lernen noch süchtig machender zu gestalten, enthält die Plattform eine Reihe von Gamifizierungsfunktionen. Benutzer verdienen Punkte, indem sie neue Wörter lernen und Aktivitäten abschließen, und können sich mit Freunden und anderen Lernenden auf der Plattform messen.</p><h4>Benutzererstellte Inhalte</h4><p>Ein einzigartiges Merkmal der Sprachlernplattform ist, dass Benutzer ihre eigenen Wörter und Phrasen zur Plattform beitragen können. Das bedeutet, dass die Plattform ständig wächst und sich weiterentwickelt, da neue Wörter und Sprachen von Benutzern aus der ganzen Welt hinzugefügt werden.</p><h4>Fortschrittsverfolgung</h4><p>Benutzer können ihren Fortschritt in jeder Sprache, die sie lernen, verfolgen, einschließlich der Anzahl der gelernten Wörter und ihrer allgemeinen Sprachkompetenz. Diese Funktion hilft Benutzern, motiviert zu bleiben und auf Kurs zu bleiben, während sie ihre Sprachlernziele verfolgen.</p><h4>Anpassung</h4><p>Die Plattform ermöglicht es Benutzern, ihr Lernerlebnis nach ihren individuellen Bedürfnissen anzupassen. Benutzer können ihre eigenen Lernziele festlegen, die Sprachen auswählen, die sie lernen möchten, und sogar ihre eigenen benutzerdefinierten Wortlisten erstellen.</p><h4>Loslegen</h4><p>Um mit der Sprachlernplattform zu beginnen, melden Sie sich einfach an und wählen Sie die Sprache aus, die Sie lernen möchten. Von dort aus können Sie neue Wörter und Phrasen lernen, Punkte sammeln und Ihren Fortschritt verfolgen.</p><h5>Verwendete Technologien</h5>",
+    "github-title": "Sieh es auf GitHub",
+    "project-link": "Projektlink",
+    "last-update": "Letztes Update"
+  },
+  "Contact": {
+    "greeting": "Hallo!",
+    "text": "Wenn Sie mich kontaktieren möchten, versuchen Sie es bitte mit einem dieser Links:"
+  },
+  "About": {
+    "short-intro": "Ich bin Fanni.",
+    "short-title": "Ich suche meinen Traumjob in {degree}°C Igis, Schweiz.",
+    "intro": "In den letzten Jahren habe ich in Österreich gelebt, und ich wollte meinen Traum, Entwickler zu werden, wahr werden lassen. Daher habe ich einen Online-Kurs belegt. Während meines Physikstudiums an der Universität habe ich gelernt, dass mit harter Arbeit, Hingabe und Ausdauer meine Ziele erreichbar sind. Also stehe ich nun hier und präsentiere Ihnen meine erste Webseite, die ich selbst erstellt habe."
+  },
+  "References": {
+    "studies-title": "Mein Studium.",
+    "position-greenfox": "JUNIOR BACKEND-ENTWICKLER",
+    "phases": "Workshop-phase (23 Wochen): Java, Spring Boot, MySQL, Spring Data JPA {br} Projektphase (16 Wochen): NextJs, React, Tailwind, Bootstrap, Java, MySQL, Prisma, TypeScript, Github, Thymeleaf, Spring, Jira, Agile",
+    "eotvos-uni": "Eötvös Loránd Universität",
+    "eotvos-posi": "BIOPHYSIK, MSc",
+    "eotvos-place": "Ungarn, Budapest",
+    "pecs-uni": "Universität Pécs",
+    "pecs-posi": "PHYSIK, BSc",
+    "pecs-place": "Ungarn, Pécs",
+    "xperience-title": "Meine Erfahrungen.",
+    "focuson-posi": "QUALITÄTSKONTROLLEURIN",
+    "focuson-place": "Österreich, Eberstalzell",
+    "focuson-content": "Sicherte gleichbleibende Qualität, indem Produkte gemäß festgelegten Standards inspiziert wurden.",
+    "tomi-posi": "BÜRÖBETRIEBSLEITER",
+    "tomi-place": "Ungarn, Pécs",
+    "tomi-content": "Koordination und Optimierung von Arbeitsabläufen in verschiedenen Abteilungen (Logistik, Ressourcenmanagement).",
+    "mta-title": "UNGARISCHE AKADEMIE {br} DER WISSENSCHAFTEN, {br} BIOLOGISCHES FORSCHUNGSZENTRUM",
+    "mta-posi": "FORSCHUNGSPRAKTIKANT",
+    "mta-place": "Ungarn, Szeged",
+    "mta-content": "Durchführung von Experimenten, Datensammlung {br} Untersuchung komplexer biophysikalischer Interaktionen {br} Analyse experimenteller Ergebnisse, ziehen sinnvoller Schlussfolgerungen, Umsetzung von Protokollen"
+  }
+}

@@ -1,0 +1,37 @@
+.selector {
+  background: rgba(255, 255, 255, 0.9);
+  color: rgb(84, 89, 86);
+  padding: 9px 15px;
+  width: 72px;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+@media (max-width: 499px) {
+  .selector {
+    width: 40px;
+    font-size: 11px;
+    padding: 9px 1px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 500px) {
+  .selector {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .selector {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .selector {
+    font-size: 18px;
+  }
+}

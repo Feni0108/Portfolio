@@ -1,0 +1,126 @@
+.container {
+  margin: auto;
+  width: 80%;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.introduction_box {
+  display: flex;
+}
+
+.greeting_box {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.greeting {
+  font-size: 80px;
+  padding: auto;
+  color: rgba(2, 90, 78, 255);
+}
+
+.photo {
+  width: 24vw;
+  height: auto;
+}
+
+.logo {
+  height: 5vh;
+  width: auto;
+  opacity: 0.7;
+}
+
+.spotify_box {
+  padding: 20px;
+  width: 23vw;
+  height: auto;
+  background-color: rgba(2, 89, 77, 255);
+  display: flex;
+}
+
+.textBox {
+  display: inline;
+}
+
+.onRepeat {
+  padding-left: 18px;
+  font-size: 14px;
+  color: rgba(196, 204, 195, 255);
+}
+
+.song {
+  display: block;
+  padding-left: 18px;
+  color: rgba(237, 231, 222, 255);
+  inline-size: content;
+}
+
+.songLink {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(237, 231, 222, 255);
+  font-size: 13px;
+}
+
+.short_intro {
+  display: inline;
+}
+
+.title {
+  color: rgba(2, 89, 77, 255);
+  padding-left: 90px;
+  padding-top: 40px;
+  line-height: 1.4;
+}
+
+.content {
+  color: rgba(85, 110, 105, 255);
+  padding-left: 90px;
+  padding-top: 20px;
+}
+
+@media (max-width: 938px) {
+  .greeting {
+    font-size: 30px;
+  }
+  .introduction_box {
+    display: block;
+  }
+  .photo {
+    margin: auto;
+    width: 200px;
+  }
+  .spotify_box {
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+  }
+  .songLink {
+    font-size: 11px;
+  }
+  .onRepeat {
+    font-size: 9px;
+  }
+  .logo {
+    width: 40px;
+  }
+  .title {
+    padding: 30px 10px;
+  }
+  .content {
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 939px) {
+  .title {
+    font-size: 40px;
+  }
+  .content {
+    font-size: 18px;
+  }
+}

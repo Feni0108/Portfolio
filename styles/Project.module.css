@@ -1,0 +1,123 @@
+.tight {
+  width: 80%;
+  text-align: center;
+  margin-top: 150px;
+  justify-content: center;
+}
+
+.relative {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.greeting {
+  font-size: 3.5em;
+  justify-content: center;
+  color: rgba(2, 90, 78, 255);
+}
+
+.star1 {
+  position: absolute;
+  width: 2.5vw;
+  height: auto;
+  left: 88%;
+  top: 0%;
+}
+
+.star2 {
+  position: absolute;
+  width: 8vw;
+  height: auto;
+  left: 88%;
+  top: 0%;
+}
+
+.llp_gif_container {
+  width: 100%;
+}
+
+.llp_gif {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+.details {
+  width: 70%;
+  text-align: left;
+  margin: auto;
+}
+
+.title {
+  color: rgba(2, 90, 78, 255);
+  font-size: 2.1em;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.smaller_title {
+  color: rgba(2, 90, 78, 255);
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.text {
+  color: rgba(85, 110, 105, 255);
+  font-size: 1.3em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.technologie_box {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.technologies {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(2, 90, 78, 255);
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(2, 90, 78, 255);
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: rgba(2, 90, 78, 255);
+  background-color: white;
+  font-weight: 600;
+}
+
+.github_link {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 499px) {
+  .technologies {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .button {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 500px) {
+  .technologies {
+    font-size: 14px;
+    padding: 9px 15px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 9px 15px;
+  }
+}

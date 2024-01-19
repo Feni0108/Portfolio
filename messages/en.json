@@ -1,0 +1,55 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, de {De} en {En} other {Unknown}}"
+  },
+  "Homepage": {
+    "greeting": "Hi! I'm Fanni. {br} A Developer.",
+    "introduction": "I'm a Java Backend Developer with a solid scientific background.",
+    "hero-title": "Language Learning Platform",
+    "hero-description": "During my studies at Greenfox Academy, my groupmates and I created a Language Learning Platform – a small project similar to Duolingo. Our main goal was to learn new programming features by building our first real webpage.",
+    "button": "CASE STUDY"
+  },
+  "Projects": {
+    "details": "<h5>Project Overview</h5><p>Language Learning Platform is a project developed as part of the Project Phase at Green Fox Academy. It is an interactive web-based application designed to make learning a new language easy, fun, and addictive. The platform offers a range of features that are designed to help users learn new vocabulary and phrases in a foreign language of their choosing.</p><h5>Features</h5><h4>Interactive Learning</h4><p>The platform offers a range of interactive learning features that make learning a new language fun and engaging. Users can learn new words and phrases through images, sounds, and example sentences. Each word is presented in context, so users can see how it is used in real-life situations.</p><h4>Gamification</h4><p>To make learning even more addictive, the platform includes a range of gamification features. Users earn points for learning new words and completing activities, and can compete against friends and other learners on the platform.</p><h4>User-Generated Content</h4><p>One unique feature of the Language Learning Platform is that users can contribute their own words and phrases to the platform. This means that the platform is constantly growing and evolving, as new words and languages are added by users from all around the world.</p><h4>Progress Tracking</h4><p>Users can track their progress in each language they are learning, including the number of words they have learned and their overall proficiency in the language. This feature helps users to stay motivated and on track as they work towards their language learning goals.</p><h4>Customization</h4><p>The platform allows users to customize their learning experience to suit their individual needs. Users can set their own learning goals, choose the languages they want to learn, and even create their own custom word lists.</p><h4>Getting Started</h4><p>To get started with the Language Learning Platform, simply sign up for an account and choose the language you want to learn. From there, you can start learning new words and phrases, earn points, and track your progress.</p><h5>Technologies Used</h5>",
+    "github-title": "See on GitHub",
+    "project-link": "Project Link",
+    "last-update": "Last update"
+  },
+  "Contact": {
+    "greeting": "Hello!",
+    "text": "If you would like to contanct me, please try one of these links:"
+  },
+  "About": {
+    "short-intro": "I'm Fanni.",
+    "short-title": "I'm looking for my dream job in {degree}°C Igis, Switzerland.",
+    "intro": "Over the last few years I was living in Austria, and I wanted to make my dreams to be a developer come true, so I took an online course. I've learned in the University during my studies as a Physicist, that with hard work, dedication and persistence I can reach my goals. So here I am now, presenting to you my first webpage, what I created myself."
+  },
+  "References": {
+    "studies-title": "My Studies.",
+    "position-greenfox": "JUNIOR BACKEND ENGINEER",
+    "phases": "Workshop phase (23 weeks): Java, Spring Boot, MySQL, Spring Data JPA {br} Project phase (16 weeks): NextJs, React, Tailwind, Bootstrap, Java, MySQL, Prisma, TypeScript, Github, Thymeleaf, Spring, Jira, Agile",
+    "eotvos-uni": "Eötvös Loránd University",
+    "eotvos-posi": "BIOPHYSICS, MSc",
+    "eotvos-place": "Hungary, Budapest",
+    "pecs-uni": "University Of Pécs",
+    "pecs-posi": "PHYSICS, BSc",
+    "pecs-place": "Hungary, Pécs",
+    "xperience-title": "My Xperiences.",
+    "focuson-posi": "QUALITY CONTROLLER",
+    "focuson-place": "Austria, Eberstalzell",
+    "focuson-content": "Ensured consistent quality by inspecting products according to established standards",
+    "tomi-posi": "OFFICE OPERATIONS MANAGER",
+    "tomi-place": "Hungary, Pécs",
+    "tomi-content": "Coordinating and optimizing workflows across different departments (logistics, resource managemnet)",
+    "mta-title": "HUNGARIAN ACADEMY OF SCIENCES, {br} BIOLOGICAL RESEARCH CENTRE",
+    "mta-posi": "RESEARCH INTERN",
+    "mta-place": "Hungary, Szeged",
+    "mta-content": "Conducting experiments, collecting data {br} Investigating complex biophysical interactions {br} Analyzing experimental results, drawing meaningful conclusions, implementing protocols"
+  }
+}
