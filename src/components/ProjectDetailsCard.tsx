@@ -40,11 +40,11 @@ export default function ProjectDetails({
     <div className="mt-3 block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
       <div className={`${styles.relative}`}>
         <h1 className={`${styles.greeting} ${myFont.className}`}>{title}</h1>
-        <Image className={`${styles.star1}`} src={star} />
-        <Image className={`${styles.star2}`} src={star} />
+        <Image className={`${styles.star1}`} src={star} alt="star" />
+        <Image className={`${styles.star2}`} src={star} alt="star" />
       </div>
       <div className="relative overflow-hidden">
-        <Image className="rounded-t-lg mx-auto" src={llp} alt="" />
+        <Image className="rounded-t-lg mx-auto" src={llp} alt="llp gif" />
       </div>
       <div
         className={`${karla.className} p-6 bg-white bg-opacity-50 text-teal-800`}

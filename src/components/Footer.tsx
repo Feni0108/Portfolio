@@ -30,7 +30,11 @@ export const Footer = () => {
                   href="mailto:94fanni@gmail.com"
                   target="_blank"
                 >
-                  <Image className={`${styles.icons}`} src={gmail} />
+                  <Image
+                    className={`${styles.icons}`}
+                    src={gmail}
+                    alt="gmail icon"
+                  />
                 </a>
               </li>
               <li>
@@ -39,7 +43,11 @@ export const Footer = () => {
                   href="https://github.com/Feni0108"
                   target="_blank"
                 >
-                  <Image className={`${styles.icons}`} src={github} />
+                  <Image
+                    className={`${styles.icons}`}
+                    src={github}
+                    alt="github icon"
+                  />
                 </a>
               </li>
               <li>
@@ -48,7 +56,11 @@ export const Footer = () => {
                   href="https://www.linkedin.com/in/fannigorfol/"
                   target="_blank"
                 >
-                  <Image className={`${styles.icons}`} src={linkedin} />
+                  <Image
+                    className={`${styles.icons}`}
+                    src={linkedin}
+                    alt="linkedin icon"
+                  />
                 </a>
               </li>
             </ul>

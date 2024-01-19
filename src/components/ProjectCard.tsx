@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import llp from "../../public/images/LLP.gif";
 import LocaleLink from "./LocaleLink";
+import { ReactNode } from "react";
 
 const karla = Karla({
   subsets: ["latin"],

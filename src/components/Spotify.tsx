@@ -1,6 +1,7 @@
 import Image from "next/image";
 import spotifyicon from "../../public/images/spotify.png";
 import { Link } from "../navigation";
+import { ReactNode } from "react";
 
 type Props = {
   title: ReactNode;
@@ -14,7 +15,7 @@ export default function Spotify({ title }: Props) {
           data-placeholder
           className="mr-2 h-12 w-12 rounded-full overflow-hidden relative bg-transparent z-40"
         >
-          <Image src={spotifyicon} />
+          <Image src={spotifyicon} alt="spotify icon" />
         </div>
         <div className="flex flex-col justify-between px-2">
           <div

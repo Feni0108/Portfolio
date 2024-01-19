@@ -20,8 +20,8 @@ export const Homepage = () => {
         <h1 className={`${styles.greeting} ${myFont.className}`}>
           {t.rich("greeting", { br: <br></br> })}
         </h1>
-        <Image className={`${styles.star1}`} src={star} />
-        <Image className={`${styles.star2}`} src={star} />
+        <Image className={`${styles.star1}`} src={star} alt="star" />
+        <Image className={`${styles.star2}`} src={star} alt="star" />
       </div>
       <p className={`${styles.intro} ${karla.className}`}>
         {t("introduction")}

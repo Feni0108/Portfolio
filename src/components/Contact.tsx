@@ -23,8 +23,8 @@ export default function Contact() {
         <h1 className={`${styles.greeting} ${myFont.className}`}>
           {t("greeting")}
         </h1>
-        <Image className={`${styles.star1}`} src={star} />
-        <Image className={`${styles.star2}`} src={star} />
+        <Image className={`${styles.star1}`} src={star} alt="star" />
+        <Image className={`${styles.star2}`} src={star} alt="star" />
       </div>
       <div>
         <p className={`${styles.text} ${karla.className}`}>{t("text")}</p>
@@ -32,17 +32,25 @@ export default function Contact() {
       <div>
         <div className={`${styles.icon_box}`}>
           <a href="mailto:94fanni@gmail.com" target="_blank">
-            <Image className={`${styles.icons}`} src={gmail} />
+            <Image className={`${styles.icons}`} src={gmail} alt="gmail icon" />
           </a>
         </div>
         <div className={`${styles.icon_box}`}>
           <a href="https://github.com/Feni0108" target="_blank">
-            <Image className={`${styles.icons}`} src={github} />
+            <Image
+              className={`${styles.icons}`}
+              src={github}
+              alt="github icon"
+            />
           </a>
         </div>
         <div className={`${styles.icon_box}`}>
           <a href="https://www.linkedin.com/in/fannigorfol/" target="_blank">
-            <Image className={`${styles.icons}`} src={linkedin} />
+            <Image
+              className={`${styles.icons}`}
+              src={linkedin}
+              alt="linkedin icon"
+            />
           </a>
         </div>
       </div>

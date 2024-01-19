@@ -16,7 +16,7 @@ export default function Navigation() {
           <div>
             <NavigationLink href="/">
               <div className={`${styles.icon_box}`}>
-                {<Image className={`${styles.icons}`} src={home} />}
+                {<Image className={`${styles.icons}`} src={home} alt="home" />}
               </div>
             </NavigationLink>
             <NavigationLink href="/about">{t("about")}</NavigationLink>

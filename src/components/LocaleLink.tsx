@@ -1,10 +1,8 @@
 "use client";
 
-import { useSelectedLayoutSegment } from "next/navigation";
 import { ComponentProps } from "react";
 import type { AppPathnames } from "../config";
 import { Link } from "../navigation";
-import styles from "../../styles/LocaleLink.module.css";
 import { Karla } from "next/font/google";
 
 const karla = Karla({
