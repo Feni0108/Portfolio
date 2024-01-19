@@ -27,7 +27,9 @@ export default function About() {
           <Profile />
         </div>
         <IntroCard
-          title={t.rich("short-title", { degree: <Temperature></Temperature> })}
+          title={t.rich("short-title", {
+            degree: <Temperature></Temperature>,
+          })}
           intro={t("intro")}
         />
       </div>

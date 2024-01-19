@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function Temperature() {
-  const [degree, setDegree] = useState<String>();
+  const [degree, setDegree] = useState<number>();
 
   const getTemperature = async () => {
     const apiCall = await fetch(
@@ -10,7 +10,7 @@ export default function Temperature() {
     );
     const data = await apiCall.json();
     console.log(data);
-    const celsius = Math.round(data.main.temp - 273);
+    const celsius: number = Math.round(data.main.temp - 273);
     setDegree(celsius);
   };
 
