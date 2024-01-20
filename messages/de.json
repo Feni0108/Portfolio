@@ -9,7 +9,7 @@
     "locale": "{locale, select, de {De} en {En} other {Unbekannt}}"
   },
   "Homepage": {
-    "greeting": "Hallo! Ich bin Fanni. Eine Entwicklerin.",
+    "greeting": "Hallo! Ich bin Fanni. {br} Eine Entwicklerin.",
     "introduction": "Ich bin eine Java Backend-Entwicklerin mit einer fundierten wissenschaftlichen Grundlage.",
     "hero-title": "Language Learning Platform",
     "hero-description": "Während meines Studiums an der Greenfox Academy haben meine Gruppenmitglieder und ich eine Sprachlernplattform erstellt - ein kleines Projekt ähnlich wie Duolingo. Unser Hauptziel bestand darin, neue Programmierfunktionen zu erlernen, indem wir unsere erste echte Webseite erstellten.",
