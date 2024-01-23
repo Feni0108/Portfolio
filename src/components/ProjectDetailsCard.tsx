@@ -55,10 +55,10 @@ export default function ProjectDetails({
             return <div className={`${styles.technologies}`}>{tech}</div>;
           })}
         </div>
-        <h1 className={`${styles.title} ${karla.className} text-left px-32`}>
+        <h1 className={`${styles.title} ${karla.className} text-left sm:px-32`}>
           {github_title}
         </h1>
-        <div className={`${styles.github_link} text-left px-32`}>
+        <div className={`${styles.github_link} text-left sm:px-32`}>
           <a
             className={`${karla.className} ${styles.button}`}
             href={project_link}

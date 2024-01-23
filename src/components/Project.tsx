@@ -36,15 +36,15 @@ export default function ProjectPage() {
         >
           {t.rich("details", {
             p: (chunks: string) => (
-              <p className="mb-4 text-xl px-32 text-justify">{chunks}</p>
+              <p className="mb-4 text-xl sm:px-32 text-justify">{chunks}</p>
             ),
             h5: (chunks: string) => (
-              <h5 className="mb-2 text-3xl font-black leading-tight text-left px-32">
+              <h5 className="mb-2 text-3xl font-black leading-tight text-left sm:px-32">
                 {chunks}
               </h5>
             ),
             h4: (chunks: string) => (
-              <h4 className="mb-2 text-2xl font-bold leading-tight text-left px-32">
+              <h4 className="mb-2 text-2xl font-bold leading-tight text-left sm:px-32">
                 {chunks}
               </h4>
             ),

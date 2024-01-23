@@ -9,10 +9,12 @@
   position: relative;
   padding-top: 60px;
   padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .greeting {
-  font-size: 3.5em;
+  font-size: 30px;
   justify-content: center;
   color: rgba(2, 90, 78, 255);
 }
@@ -119,5 +121,8 @@
   .button {
     font-size: 14px;
     padding: 9px 15px;
+  }
+  .greeting {
+    font-size: 70px;
   }
 }

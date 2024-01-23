@@ -18,10 +18,10 @@ type Props = {
 
 export default function IntroCard({ title1, title2, intro }: Props) {
   return (
-    <div className="block ml-16 w-auto sm:w-100 rounded-lg bg-transparent">
-      <div className="p-6">
+    <div className="block w-auto rounded-lg bg-transparent">
+      <div className="pl-10 pr-10 sm:pt-0 pt-10">
         <h5
-          className={`${myFont.className} mb-2 lg:text-5xl md:text-3xl font-medium leading-tight text-teal-800`}
+          className={`${myFont.className} pr-10 mb-2 text-4xl font-medium leading-tight text-teal-800`}
         >
           {title1} <Temperature /> {title2}
         </h5>
