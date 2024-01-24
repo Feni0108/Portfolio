@@ -1,6 +1,5 @@
 import { Karla } from "next/font/google";
 import Image from "next/image";
-import llp from "../../public/images/LLP.gif";
 import styles from "../../styles/Project.module.css";
 import localFont from "next/font/local";
 import star from "../../public/images/star.png";
@@ -22,6 +21,7 @@ type Props = {
   project_link: ReactNode;
   project_link_name: string;
   last_update: ReactNode;
+  src: any;
 };
 
 export default function ProjectDetails({
@@ -32,6 +32,7 @@ export default function ProjectDetails({
   project_link,
   project_link_name,
   last_update,
+  src,
 }: Props) {
   const { publicRuntimeConfig } = getConfig();
   const modifiedDate = new Date(publicRuntimeConfig.modifiedDate).toString();
@@ -44,7 +45,7 @@ export default function ProjectDetails({
         <Image className={`${styles.star2}`} src={star} alt="star" />
       </div>
       <div className="relative overflow-hidden">
-        <Image className="rounded-t-lg mx-auto" src={llp} alt="llp gif" />
+        <Image className="rounded-t-lg mx-auto" src={src} alt="llp gif" />
       </div>
       <div
         className={`${karla.className} p-6 bg-white bg-opacity-50 text-teal-800`}

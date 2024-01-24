@@ -1,7 +1,6 @@
 import { Karla } from "next/font/google";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import llp from "../../public/images/LLP.gif";
 import LocaleLink from "./LocaleLink";
 import { ReactNode } from "react";
 
@@ -14,14 +13,15 @@ type Props = {
   title: ReactNode;
   description: ReactNode;
   href: ReactNode;
+  src: any;
 };
 
-export default function ProjectCard({ title, description, href }: Props) {
+export default function ProjectCard({ title, description, href, src }: Props) {
   const t = useTranslations("Homepage");
   return (
     <div className="mx-3 mt-6 flex flex-col self-start rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] sm:shrink-0 sm:grow sm:basis-0 inset-0 transform duration-300 hover:scale-105">
       <a href="#!">
-        <Image className="rounded-t-lg" src={llp} alt="project-gif" />
+        <Image className="rounded-t-lg" src={src} alt="project-gif" />
       </a>
       <div className="p-6 bg-white bg-opacity-50 rounded-lg ">
         <h5
