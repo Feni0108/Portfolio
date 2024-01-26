@@ -33,7 +33,8 @@
   },
   "Contact": {
     "greeting": "Hello!",
-    "text": "If you would like to contanct me, please try one of these links:"
+    "text": "If you would like to contanct me, please try one of these links:",
+    "sidenote": "You can find my portfolio on Github"
   },
   "About": {
     "short-intro": "I'm Fanni.",

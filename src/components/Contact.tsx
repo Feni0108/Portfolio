@@ -30,6 +30,15 @@ export default function Contact() {
         <p className={`${styles.text} ${karla.className}`}>{t("text")}</p>
       </div>
       <div>
+        <a
+          className={`${styles.sidenote} ${karla.className}`}
+          href="https://github.com/Feni0108/Portfolio"
+          target="_blank"
+        >
+          {t("sidenote")}
+        </a>
+      </div>
+      <div>
         <div className={`${styles.icon_box}`}>
           <a href="mailto:94fanni@gmail.com" target="_blank">
             <Image className={`${styles.icons}`} src={gmail} alt="gmail icon" />

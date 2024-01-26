@@ -37,6 +37,14 @@
   padding-bottom: 20px;
 }
 
+.sidenote {
+  color: rgba(85, 110, 105, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
 .icons {
   opacity: 0.5;
   padding: 10px;
@@ -53,6 +61,9 @@
   .text {
     font-size: 14px;
   }
+  .sidenote {
+    font-size: 10px;
+  }
   .icons {
     height: 50px;
     width: auto;
@@ -65,6 +76,9 @@
   }
   .text {
     font-size: 20px;
+  }
+  .sidenote {
+    font-size: 14px;
   }
   .icons {
     height: 70px;
