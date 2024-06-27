@@ -62,6 +62,9 @@
     "mta-title": "UNGARISCHE AKADEMIE {br} DER WISSENSCHAFTEN, {br} BIOLOGISCHES FORSCHUNGSZENTRUM",
     "mta-posi": "FORSCHUNGSPRAKTIKANT",
     "mta-place": "Ungarn, Szeged",
-    "mta-content": "Durchführung von Experimenten, Datensammlung {br} Untersuchung komplexer biophysikalischer Interaktionen {br} Analyse experimenteller Ergebnisse, ziehen sinnvoller Schlussfolgerungen, Umsetzung von Protokollen"
+    "mta-content": "Durchführung von Experimenten, Datensammlung {br} Untersuchung komplexer biophysikalischer Interaktionen {br} Analyse experimenteller Ergebnisse, ziehen sinnvoller Schlussfolgerungen, Umsetzung von Protokollen",
+    "empowerme-posi": "Full Stack Developer",
+    "empowerme-place": "Remote",
+    "empowerme-content": "Design und Entwicklung interaktiver und benutzerfreundlicher Web-Schnittstellen unter Verwendung moderner Frontend-Frameworks und Bibliotheken wie React, Vue.js und Angular. {br} Entwicklung robuster und skalierbarer APIs mithilfe von Backend-Sprachen und Frameworks wie Node.js und Java. {br} Teilnahme an agilen Entwicklungsmethoden wie Design-Sprints, Code-Reviews und kontinuierlicher Integration / kontinuierlicher Bereitstellung (CI / CD)."
   }
 }
