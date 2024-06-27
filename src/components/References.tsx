@@ -88,6 +88,27 @@ export default function Reference() {
           <div className={`${styles.title}`}>
             <div>
               <h3 className={`${karla.className} ${styles.institution}`}>
+                empowermefirst.college
+              </h3>
+              <p className={`${karla.className} ${styles.position}`}>
+                {t("empowerme-posi")}
+              </p>
+              <p className={`${karla.className} ${styles.place}`}>
+                {t("empowerme-place")}
+              </p>
+            </div>
+            <div className={`${karla.className} ${styles.year}`}>2024 -</div>
+          </div>
+          <div>
+            <p className={`${karla.className} ${styles.content}`}>
+              {t.rich("empowerme-content", { br: <br></br> })}
+            </p>
+          </div>
+        </div>
+        <div className={`${styles.container}`}>
+          <div className={`${styles.title}`}>
+            <div>
+              <h3 className={`${karla.className} ${styles.institution}`}>
                 FOCUSON - MMF GMBH
               </h3>
               <p className={`${karla.className} ${styles.position}`}>
