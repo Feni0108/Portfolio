@@ -62,6 +62,9 @@
     "mta-title": "HUNGARIAN ACADEMY OF SCIENCES, {br} BIOLOGICAL RESEARCH CENTRE",
     "mta-posi": "RESEARCH INTERN",
     "mta-place": "Hungary, Szeged",
-    "mta-content": "Conducting experiments, collecting data {br} Investigating complex biophysical interactions {br} Analyzing experimental results, drawing meaningful conclusions, implementing protocols"
+    "mta-content": "Conducting experiments, collecting data {br} Investigating complex biophysical interactions {br} Analyzing experimental results, drawing meaningful conclusions, implementing protocols",
+    "empowerme-posi": "Full Stack Developer",
+    "empowerme-place": "Remote",
+    "empowerme-content": "Design and developement of interactive and user-friendly web interfaces using modern frontend frameworks and libraries such as React, Vue.js and Angular. {br} Development of robust and scalable APIs using backend languages and frameworks like Node.js and Java. {br} Participation in agile development methodologies such as design sprints, code reviews, and continious integration/continious deployement (CI/CD)."
   }
 }
