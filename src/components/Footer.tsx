@@ -19,7 +19,7 @@ export const Footer = () => {
         <div className={`${styles.endLine}`}>
           <div>
             <p className={`${styles.created} ${karla.className}`}>
-              © 2023, Fanni Görföl - Igis
+              © 2024, Fanni Dunai - Igis
             </p>
           </div>
           <div className={`${styles.links}`}>
